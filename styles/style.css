@@ -1,0 +1,120 @@
+*{
+    margin: 0
+}
+
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@700&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-bottom: 90px;
+}
+/*------nav-menu------ */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 228px;
+    margin-top: 50px;
+    margin-bottom: 102;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 240px;
+    margin-top: 63px;
+    margin-bottom: 116px;
+    
+
+}
+.navbar ul li{
+    font-size: 18px;
+    font-weight: 500; 
+    
+}
+/*--------- banner section------ */
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 30px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.btn-primary{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 30px 700px;
+}
+.banner-img{
+  
+    border-radius: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+/* list of features style */
+.list-of-feature{
+    display: flex;
+    gap: 70px;
+}
+.list-of-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    margin-left: 200px;
+}
+.features{
+    margin-top: 170px;
+    margin-right: 150px;
+}
+.quick{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.our{
+    font-size: 45px;
+    font-weight: 700;
+}
+.feature{
+    font-size: 45px;
+    font-weight: 700;
+    color: 
+    #FF900E;
+}
+.features-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-top: 20px;
+}
+.btn-simple{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
