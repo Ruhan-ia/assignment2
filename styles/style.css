@@ -118,3 +118,223 @@ body{
     border-radius: 10px;
     margin-top: 20px;
 }
+/* features you will love and enjoy */
+.enjoyable-featuers{
+    display: flex;
+    gap: 140px;
+}
+.features-you-love{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 15px;
+}
+.box-resize{
+    box-shadow: 1px 1px 1px 1px rgb(232, 223, 223);
+}
+.features-you-love h3{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    
+    margin-top: 130px;
+}
+.features-you-love p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-top: 7px;
+}
+.enjoyable-features-img{
+    margin-right: 200px;
+    margin-top: 130px;
+    width: 100%;
+    
+   
+    
+   
+}
+.enjoyable-features-img img{
+    width: 100%;
+    height: auto;
+}
+.btn-special{
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: orangered;
+    color: white;
+    border: 0;
+    font-size: 45px;
+    position: relative;
+    bottom: 80px;
+    right: 100px;
+
+   
+    
+    
+}
+
+
+.exprience{
+    font-size: 24px;
+}
+/*----------
+    Facts section  
+----------------------*/
+.facts-title{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-top: 130px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.facts-dsecription{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    color: #727272;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 250px;
+}
+.card{
+    border: 1px solid #727272;
+    border-radius: 7px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 140px;
+    transition: transform .5s;
+    
+}
+.card > img{
+    padding-top: 15%;
+    text-align: center;
+    padding-left: 35%;
+    
+
+}
+.card p{
+    text-align: center;
+    padding-top: 10px;
+}
+.card:hover{
+    transform: scale(1.2);
+    border: 1px solid #FF900E ;
+}
+/* sponsor section */
+.our-sponsors{
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.sponsors-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 50px;
+}
+.sponsors{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #727272;
+  
+}
+/* footer */
+.footer{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    text-align: center;
+    
+    margin-bottom: 50px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.footer div{
+    height: 100px;
+}
+.footer p{
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+/* media quary */
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+       
+    }
+    .navbar ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-title{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner-title, .banner-description{
+       
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .btn-primary{
+        margin-top: 30px;
+        margin-left: 150px;
+        
+    }
+    
+    .banner-img img{
+       
+        width: 100%;
+    }
+    .list-of-feature{
+        flex-direction: column;
+    }
+    .list-of-photos{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: end;
+        margin-left: 0;
+    }
+    .features{
+        margin-right: 0;
+    }
+    .facts-title, .facts-dsecription{
+        margin-left: 0;
+        text-align: center;
+    }
+    .card-container, .sponsors, .footer{
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .enjoyable-featuers{
+        flex-direction: column;
+    }
+     .features-you-love{
+        margin-left: 0;
+     }
+     .btn-special{
+       
+        margin-left: 60px;
+     }
+}
+
+
